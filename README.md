@@ -6,18 +6,24 @@ Bem-vindo(a) ao meu perfil! Eu sou o **Kelvin**, desenvolvedor de software focad
 
 ## 🚀 Projetos Destaques
 
-### PyTask
-> **Status:** Em refatoração  
-> Projeto da trilha de Python da Rocketseat
+### PyBank
+> **Status:** Em desenvolvimento
 
-O **PyTask** é um gerenciador de tarefas simples, rodando direto no terminal. Ele me ajuda a organizar o dia a dia, adicionando, atualizando e removendo tarefas de forma rápida.
+O **PyBank** é um sistema bancário simples desenvolvido em Python, com foco em consolidar conhecimentos sobre lógica de programação, controle de fluxo, manipulação de dados e boas práticas de desenvolvimento. Este projeto simula as funcionalidades básicas de uma conta bancária, permitindo ao usuário interagir com o sistema por meio de um menu no terminal.
 
 **Destaques:**
-- Interface minimalista no console  
-- Funções para adicionar, visualizar, atualizar e completar tarefas  
-- Limpeza automática de tarefas concluídas  
+- **Depósito:** Permite depósitos apenas de valores positivos; atualiza o saldo da conta; registra a transação no extrato.
+- **Saque:** Permite saques se houver saldo disponível; limite de R$ 500,00 por saque; limite de até 3 saques diários; registra o saque no extrato.
+- **Extrato:** Exibe todas as movimentações realizadas (depósitos e saques); mostra o saldo atual da conta; movimentações exibidas em formato monetário (R$ xxx.xx).
+- **Sair:** Encerra o sistema de forma limpa, com mensagem de encerramento.
 
-[Ver repositório](https://github.com/k-ccosta/PyTask)
+**Regras de Negócio:**
+- Saques por dia: máximo de 3.
+- Valor máximo por saque: R$ 500,00.
+- Depósitos devem ser valores positivos.
+- Todos os valores exibidos seguem o padrão monetário brasileiro: R$ xxx.xx.
+
+[Ver repositório](https://github.com/k-ccosta/PyBank)
 
 ---
 
@@ -28,9 +34,9 @@ O **PyTask** é um gerenciador de tarefas simples, rodando direto no terminal. E
 O **PyAgenda** é um pequeno sistema para gerenciar contatos, salvando dados em um arquivo texto e permitindo edição, exclusão e até “favoritar” um contato.
 
 **Destaques:**
-- Manipulação de arquivos (leitura e escrita)  
-- Edição de contatos direto no terminal  
-- Uso de JSON para armazenamento simples de dados  
+- Manipulação de arquivos (leitura e escrita)
+- Edição de contatos direto no terminal
+- Uso de JSON para armazenamento simples de dados
 
 [Ver repositório](https://github.com/k-ccosta/PyAgenda)
 
